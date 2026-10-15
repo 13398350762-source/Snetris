@@ -1,0 +1,28 @@
+ArtRes 资源分类与去重
+
+本次检查全部文件，删除了 7 个完全相同的重复素材及其同名导入配置，并重新分类 237 个素材。图片还按解码后的像素核对，避免把 PNG 压缩不同但内容相同的图漏掉。
+
+UI/Buttons/Primary：各色长条按钮正常、悬停、按下状态。
+UI/Buttons/IconButtons：图标按钮正常、悬停、按下状态。
+UI/Buttons/Secondary：恢复默认等次要按钮。
+UI/Buttons/Shared：一张共用长条禁用图、一张共用图标按钮禁用图。
+UI/Icons/Dark、Light：深色与白色图标。
+UI/Inputs：Fields 输入框、Checkboxes 勾选框、Text 光标与选中底图、Feedback 错误提示。
+UI/Toggles/Combined：已经画好滑块的完整开关。
+UI/Toggles/Tracks、Thumbs、Indicators：可组合的开关底轨、滑块与状态符号。完整开关和组件用途不同，不是相同图片。
+UI/Sliders/Tracks、Fills、Handles：滑条的三个部件。
+UI/Panels：Auth、Gameplay、Leaderboard、Settings、Dialogs、Shared，按界面用途分类。
+UI/Labels：数值底图。
+
+Audio：UI、Gameplay、Results、Account。原 ui_toggle_on/off 音效完全一致，统一使用 Audio/UI/ui_toggle.wav。
+Backgrounds：Sky 与 Patterns。
+Blocks：Tiles 与 Overlays。
+FX：Particles、Animations、Overlays。
+Preview：Auth、Gameplay、Leaderboard、Settings、Prompt、Catalog、Audio，全部为示意／试听。
+SourceArt/UI：可编辑 SVG 源文件；与 PNG 是源图和导出图的关系，不是可相互替代的重复文件。
+
+原有已被场景和预制体引用的资源，其 GUID、切片配置及图像内容均保留。没有修改场景、预制体或游戏代码。不同颜色、不同交互状态、不同部件和不同用途的示意图保留。
+
+旧路径与新路径对应关系见 cleanup_path_map.csv。
+整理前完整备份：D:\Resources\ArtRes_Backups\ArtRes_before_cleanup_2026-10-08
+本次未在 Unity 编辑器内实际运行。

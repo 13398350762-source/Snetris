@@ -1,0 +1,65 @@
+{
+  "reference_canvas": [
+    540,
+    960
+  ],
+  "panel": [
+    35,
+    185,
+    470,
+    716
+  ],
+  "rows": [
+    {
+      "name": "master_volume",
+      "rect": [
+        57,
+        279,
+        426,
+        148
+      ],
+      "preview_value": 0.8
+    },
+    {
+      "name": "music_volume",
+      "rect": [
+        57,
+        445,
+        426,
+        148
+      ],
+      "preview_value": 0.6
+    },
+    {
+      "name": "sfx_volume",
+      "rect": [
+        57,
+        611,
+        426,
+        148
+      ],
+      "preview_value": 0.75
+    }
+  ],
+  "close": [
+    442,
+    217,
+    28,
+    28
+  ],
+  "restore_default": [
+    61,
+    808,
+    195,
+    60
+  ],
+  "done": [
+    274,
+    807,
+    205,
+    62
+  ],
+  "note": "Design layout only; no runtime behavior.",
+  "resources_root": "ArtRes",
+  "preview_directory": "Preview/Settings"
+}

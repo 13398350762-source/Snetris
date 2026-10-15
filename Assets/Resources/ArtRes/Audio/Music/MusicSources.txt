@@ -1,0 +1,22 @@
+Music source and usage
+
+Author: MintoDog
+License for both tracks: CC0 1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Downloaded: 2026-10-15
+Audio files renamed only; not edited.
+
+menu_bgm.ogg
+Original: Cozy Puzzle Title (95 BPM)
+Source: https://opengameart.org/content/cozy-puzzle-title
+Use: Login, Register, Main, Settings and Leaderboard. Keep playing across menu changes.
+Resources path: ArtRes/Audio/Music/menu_bgm
+
+game_bgm.ogg
+Original: Cozy Puzzle In-Game 1 (118 BPM)
+Source: https://opengameart.org/content/cozy-puzzle-in-game-1
+Use: Gameplay. Pause on pause/game over; restart for a new game.
+Resources path: ArtRes/Audio/Music/game_bgm
+
+Both source pages describe these tracks as loopable.
+Suggested optional credit: Music by MintoDog (OpenGameArt.org), CC0.

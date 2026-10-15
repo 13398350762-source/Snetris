@@ -1,0 +1,18 @@
+设置面板补充素材
+
+UI/Panels/Settings/panel_settings.png：设置面板。
+UI/Panels/Settings/setting_card_normal.png 与 setting_card_disabled.png：选项卡片。
+UI/Sliders/Tracks、Fills、Handles：底轨、青／绿／紫填充、滑块及其状态。
+UI/Toggles/Tracks、Thumbs、Indicators：开启／关闭／禁用底轨、滑块及勾／叉。
+UI/Labels：音量百分比底图。
+UI/Buttons/Secondary/button_secondary_*：恢复默认按钮底图。
+
+完成按钮使用原目录已有的 UI/Buttons/Primary/button_cyan_normal.png，图标、云背景等也复用原文件，没有重复复制或改动它们。
+
+新增 PNG 已附 Sprite / Single / Full Rect 的 .meta 和九宫格边距。面板、卡片、底轨、填充、数值框和矩形按钮的 UI Image 可选择 Sliced；滑块与图标使用 Simple。具体边距见同目录 sprite_borders.csv。
+
+在 540 × 960 参考画布上：面板 470 × 716；卡片 426 × 148；底轨和填充高 24；滑块 38 × 38。开关底轨 86 × 43，滑块 38 × 38。音量参考值 80% / 60% / 75% 只用于示意。
+
+Preview/Settings 为横竖版与状态示意图；SourceArt/UI 为可编辑 SVG 源图，实际界面使用 PNG。
+
+只含艺术资源，无游戏脚本、预制体或实际设置控制功能。没有附带字体。底图不含文字，文字和数值由你在 Unity 中添加。未在 Unity 编辑器内实测。

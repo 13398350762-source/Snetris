@@ -1,0 +1,12 @@
+竖版小提示面板
+
+UI/Panels/Dialogs/panel_prompt_vertical.png：560 × 720 的透明底竖版背景框，深色外框和浅色内背景已组合，不含提示文字，也不包含按钮。
+该图由原有 panel_dark.png 与 panel_auth.png 组合导出，没有改动原图。
+
+PNG 的 .meta 已带 Sprite / Single / Full Rect 和 Left / Bottom / Right / Top 均为 70 的九宫格边距。UI Image 可设为 Sliced。
+
+按示意图在 540 × 960 的画布中，提示面板位置 (130,300)，尺寸 280 × 360；一句提示的中心为面板内 (140,124)。确定按钮复用现有 UI/Buttons/Primary/button_cyan_normal.png，位置 (55,236)，尺寸 170 × 62，文字中心为 (140,263)。
+
+遮罩使用现有 UI/Panels/Shared/modal_scrim.png，放在面板下方、主界面上方。
+
+Preview/Prompt 是最新竖版示意图，里面的文字只是展示。实际搭建时用独立背景框、原有按钮，在 Unity 中自行添加提示文字和“确定”。
